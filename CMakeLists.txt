@@ -1,0 +1,5 @@
+add_executable(qlykhang main.c)
+add_subdirectory(libfdr)
+add_subdirectory(cgraph)
+target_link_libraries(qlykhang fdr)
+target_link_libraries(qlykhang cgraph)
